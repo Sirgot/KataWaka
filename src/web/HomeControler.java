@@ -9,6 +9,6 @@ public class HomeControler {
     @RequestMapping (value="/" , method= RequestMethod.GET)
     public String WakaHome ()
     {
-        return "WakaHome";
+        return "/views/WakaHome.jsp";
     }
 }

@@ -18,14 +18,14 @@ public class WebConfig extends WebMvcConfigurationSupport {
     @Bean
     public ViewResolver viewResolver () {
         InternalResourceViewResolver resolver = new InternalResourceViewResolver();
-        resolver.setPrefix("/web-inf/Views/");
+        resolver.setPrefix("/WEB-INF/views/");
         resolver.setSuffix(".jsp");
+        resolver.setViewClass(org.springframework.web.servlet.view.JstlView.class);
         resolver.setExposeContextBeansAsAttributes(true);
         return resolver;
     }
 
-    public void ConfigureDefaultServletHandling (
-            DefaultServletHandlerConfigurer configurer) {
+    public void ConfigureDefaultServletHandling (DefaultServletHandlerConfigurer configurer) {
         configurer.enable();
     }
 }

@@ -1,4 +1,8 @@
 package web;
 
-public class ConfigServletWebServerApplicationContext {
+import org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext;
+import org.springframework.stereotype.Component;
+
+@Component
+public class ConfigServletWebServerApplicationContext extends ServletWebServerApplicationContext {
 }
