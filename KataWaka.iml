@@ -105,6 +105,9 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-core:5.2.3.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-jcl:5.2.2.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.eclipse.persistence:javax.persistence:2.2.1" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-core:5.2.1.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-config:5.2.1.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-web:5.2.1.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.mockito:mockito-all:1.10.19" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.mockito:mockito-junit-jupiter:3.2.4" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter-api:5.5.2" level="project" />
@@ -124,5 +127,6 @@
     <orderEntry type="library" name="Maven: net.bytebuddy:byte-buddy-agent:1.10.4" level="project" />
     <orderEntry type="library" name="Maven: org.objenesis:objenesis:2.6" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-test:5.2.3.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.16.12" level="project" />
   </component>
 </module>
