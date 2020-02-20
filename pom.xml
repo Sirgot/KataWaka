@@ -125,7 +125,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>2.2.4.RELEASE</version>
                 <configuration>
-                    <mainClass>src.waka.conta.Contabilidad</mainClass>
+                    <mainClass>waka.RootConfig</mainClass>
                 </configuration>
             </plugin>
         </plugins>
