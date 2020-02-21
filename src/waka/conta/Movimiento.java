@@ -9,9 +9,21 @@ import java.util.Date;
 @ComponentScan
 public class Movimiento {
 
-    private Date fecha = new Date();
-    private Double cuantia = 0.0;
-    private String concepto = "";
+    protected Date fecha = new Date();
+    protected double cuantia = 0.0;
+    protected String concepto = "";
+
+    public Movimiento () {
+        fecha = new Date();
+        cuantia = 0.0;
+        concepto = "";
+    }
+
+    public Movimiento (double pcuantia, String pconcepto) {
+        cuantia = pcuantia;
+        concepto = pconcepto;
+        fecha = new Date();
+    }
 
     public Date getFecha () {
         return fecha;

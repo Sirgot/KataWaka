@@ -1,2 +1,7 @@
 KataBase
     KataUser  - > K4T4Us3r!
+
+Spring uses Bootstrap to define the UI.
+
+   spring.security.user.name = admin
+   spring.security.user.password = s$cret

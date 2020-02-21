@@ -52,19 +52,19 @@ public class Controler implements ErrorController {
     }
 
 
-//    @RequestMapping(value = "/Waka", method = RequestMethod.GET)
+    @RequestMapping(value = "/Waka", method = RequestMethod.GET)
+    String WakaHome (Model model) {
+        model.addAttribute("message", "Ola ke ase, como andamios?");
+        return ("WakaHome");
+//        return ("../views/WakaHome");
+    }
+
+//    @RequestMapping(value = "/Waka", method = RequestMethod.POST)
 //    String WakaHome (Model model) {
 //        model.addAttribute("message", "Ola ke ase, como andamios?");
 ////        return ("WakaHome");
-//        return ("../views/WakaHome");
-//    }
-
-    @RequestMapping(value = "/Waka", method = RequestMethod.POST)
-    String WakaHome (Model model) {
-        model.addAttribute("message", "Ola ke ase, como andamios?");
 //        return ("WakaHome");
-        return ("../views/WakaHome");
-    }
+//    }
 
     @RequestMapping(value = "/")
     String index () {
